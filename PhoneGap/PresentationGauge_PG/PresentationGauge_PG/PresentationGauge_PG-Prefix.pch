@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PresentationGauge_PG' target in the 'PresentationGauge_PG' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3790EB8D149E628F003459BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3790EB8C149E628F003459BA /* UIKit.framework */; };
+		3790EB8F149E628F003459BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3790EB8E149E628F003459BA /* Foundation.framework */; };
+		3790EB91149E628F003459BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3790EB90149E628F003459BA /* CoreGraphics.framework */; };
+		3790EB97149E6290003459BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3790EB95149E6290003459BA /* InfoPlist.strings */; };
+		3790EB99149E6290003459BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790EB98149E6290003459BA /* main.m */; };
+		3790EB9D149E6290003459BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790EB9C149E6290003459BA /* AppDelegate.m */; };
+		3790EBA5149E630D003459BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790EBA4149E630D003459BA /* MainViewController.m */; };
+		3790EBA8149E634B003459BA /* GaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790EBA7149E634B003459BA /* GaugeView.m */; };
+		3790EBAB149E64ED003459BA /* dial.png in Resources */ = {isa = PBXBuildFile; fileRef = 3790EBA9149E64ED003459BA /* dial.png */; };
+		3790EBAC149E64ED003459BA /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3790EBAA149E64ED003459BA /* needle.png */; };
+		3790EBB4149E6AC0003459BA /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790EBB3149E6AC0003459BA /* DataService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3790EB88149E628F003459BA /* PresentationGauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentationGauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3790EB8C149E628F003459BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3790EB8E149E628F003459BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3790EB90149E628F003459BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3790EB94149E6290003459BA /* PresentationGauge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PresentationGauge-Info.plist"; sourceTree = "<group>"; };
+		3790EB96149E6290003459BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3790EB98149E6290003459BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3790EB9A149E6290003459BA /* PresentationGauge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PresentationGauge-Prefix.pch"; sourceTree = "<group>"; };
+		3790EB9B149E6290003459BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3790EB9C149E6290003459BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3790EBA3149E630D003459BA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3790EBA4149E630D003459BA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3790EBA6149E634B003459BA /* GaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaugeView.h; sourceTree = "<group>"; };
+		3790EBA7149E634B003459BA /* GaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaugeView.m; sourceTree = "<group>"; };
+		3790EBA9149E64ED003459BA /* dial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dial.png; sourceTree = "<group>"; };
+		3790EBAA149E64ED003459BA /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
+		3790EBB2149E6AC0003459BA /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		3790EBB3149E6AC0003459BA /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3790EB85149E628F003459BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3790EB8D149E628F003459BA /* UIKit.framework in Frameworks */,
+				3790EB8F149E628F003459BA /* Foundation.framework in Frameworks */,
+				3790EB91149E628F003459BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3790EB7D149E628F003459BA = {
+			isa = PBXGroup;
+			children = (
+				3790EBAD149E654A003459BA /* images */,
+				3790EB92149E6290003459BA /* PresentationGauge */,
+				3790EB8B149E628F003459BA /* Frameworks */,
+				3790EB89149E628F003459BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3790EB89149E628F003459BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3790EB88149E628F003459BA /* PresentationGauge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3790EB8B149E628F003459BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3790EB8C149E628F003459BA /* UIKit.framework */,
+				3790EB8E149E628F003459BA /* Foundation.framework */,
+				3790EB90149E628F003459BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3790EB92149E6290003459BA /* PresentationGauge */ = {
+			isa = PBXGroup;
+			children = (
+				3790EB9B149E6290003459BA /* AppDelegate.h */,
+				3790EB9C149E6290003459BA /* AppDelegate.m */,
+				3790EB93149E6290003459BA /* Supporting Files */,
+				3790EBA3149E630D003459BA /* MainViewController.h */,
+				3790EBA4149E630D003459BA /* MainViewController.m */,
+				3790EBA6149E634B003459BA /* GaugeView.h */,
+				3790EBA7149E634B003459BA /* GaugeView.m */,
+				3790EBB2149E6AC0003459BA /* DataService.h */,
+				3790EBB3149E6AC0003459BA /* DataService.m */,
+			);
+			path = PresentationGauge;
+			sourceTree = "<group>";
+		};
+		3790EB93149E6290003459BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3790EB94149E6290003459BA /* PresentationGauge-Info.plist */,
+				3790EB95149E6290003459BA /* InfoPlist.strings */,
+				3790EB98149E6290003459BA /* main.m */,
+				3790EB9A149E6290003459BA /* PresentationGauge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3790EBAD149E654A003459BA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3790EBA9149E64ED003459BA /* dial.png */,
+				3790EBAA149E64ED003459BA /* needle.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3790EB87149E628F003459BA /* PresentationGauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3790EBA0149E6290003459BA /* Build configuration list for PBXNativeTarget "PresentationGauge" */;
+			buildPhases = (
+				3790EB84149E628F003459BA /* Sources */,
+				3790EB85149E628F003459BA /* Frameworks */,
+				3790EB86149E628F003459BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresentationGauge;
+			productName = PresentationGauge;
+			productReference = 3790EB88149E628F003459BA /* PresentationGauge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3790EB7F149E628F003459BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Activa Consult BVBA";
+			};
+			buildConfigurationList = 3790EB82149E628F003459BA /* Build configuration list for PBXProject "PresentationGauge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3790EB7D149E628F003459BA;
+			productRefGroup = 3790EB89149E628F003459BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3790EB87149E628F003459BA /* PresentationGauge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3790EB86149E628F003459BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3790EB97149E6290003459BA /* InfoPlist.strings in Resources */,
+				3790EBAB149E64ED003459BA /* dial.png in Resources */,
+				3790EBAC149E64ED003459BA /* needle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3790EB84149E628F003459BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3790EB99149E6290003459BA /* main.m in Sources */,
+				3790EB9D149E6290003459BA /* AppDelegate.m in Sources */,
+				3790EBA5149E630D003459BA /* MainViewController.m in Sources */,
+				3790EBA8149E634B003459BA /* GaugeView.m in Sources */,
+				3790EBB4149E6AC0003459BA /* DataService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3790EB95149E6290003459BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3790EB96149E6290003459BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3790EB9E149E6290003459BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3790EB9F149E6290003459BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3790EBA1149E6290003459BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PresentationGauge/PresentationGauge-Prefix.pch";
+				INFOPLIST_FILE = "PresentationGauge/PresentationGauge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3790EBA2149E6290003459BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PresentationGauge/PresentationGauge-Prefix.pch";
+				INFOPLIST_FILE = "PresentationGauge/PresentationGauge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3790EB82149E628F003459BA /* Build configuration list for PBXProject "PresentationGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3790EB9E149E6290003459BA /* Debug */,
+				3790EB9F149E6290003459BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3790EBA0149E6290003459BA /* Build configuration list for PBXNativeTarget "PresentationGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3790EBA1149E6290003459BA /* Debug */,
+				3790EBA2149E6290003459BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3790EB7F149E628F003459BA /* Project object */;
+}

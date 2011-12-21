@@ -1,0 +1,20 @@
+.DS_Store*
+
+xcuserdata/
+project.xcworkspace/
+
+# Build and Object Folders
+bin/
+obj/
+Bin/
+Obj/
+
+#User Specific Files
+*.user
+*.suo
+*.pidb
+*.userprefs
+
+#Resource Caches
+_ReSharper.*
+*.sln.cache
